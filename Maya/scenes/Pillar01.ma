@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Pillar01.ma
-//Last modified: Sun, May 24, 2020 03:35:36 PM
+//Last modified: Sun, May 24, 2020 04:25:46 PM
 //Codeset: 1252
 requires maya "2019";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "0DAAC157-44D2-2DAB-6600-2188E83A085E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.2976372262328861 7.0267450772422304 2.8774643203374879 ;
-	setAttr ".r" -type "double3" -59.138352717258712 3200.9999999998081 0 ;
+	setAttr ".t" -type "double3" -1.9050473363226574 5.2352946005775678 5.2613814908952889 ;
+	setAttr ".r" -type "double3" -35.138352717260389 3221.3999999997991 -2.5168764709897106e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5F95AD9C-454C-0465-793B-BCBDFABC493F";
 	setAttr -k off ".v" no;
@@ -4944,7 +4944,7 @@ createNode shadingEngine -n "lambert8SG";
 createNode materialInfo -n "materialInfo7";
 	rename -uid "C17A8681-460D-69E4-71F2-8990CFD5F598";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "90EAC483-4011-40B2-F509-3598EA75C236";
+	rename -uid "186A433C-402C-7889-347A-4C9D81FEDB81";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -107.14285288538271 -338.09522466054091 ;
 	setAttr ".tgi[0].vh" -type "double2" 105.95237674221175 352.38093837859196 ;
